@@ -6,8 +6,8 @@ var min;
 var max;
 
 function time() {
-  min = 1000;
-  max = 5000;
+  min = 5000;
+  max = 10000;
   var t = Math.floor(Math.random() * (max + 1 - min)) + min;
   setTimeout("flash()", t);
   num = num + 1;
